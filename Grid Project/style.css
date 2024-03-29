@@ -20,8 +20,8 @@ html body{
     padding: 40px 0px 0px 40px;
 }
 .square{
-    width: 25px;
-    height: 25px;
+    width: 22px;
+    height: 22px;
     background-color: black;
     rotate: 45deg;    
 }
