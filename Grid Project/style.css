@@ -59,6 +59,7 @@ h1:nth-child(2n){
 }
 p{
     width: 66%;
+    text-align: justify;
 }
 .right{
     background-color: brown;
