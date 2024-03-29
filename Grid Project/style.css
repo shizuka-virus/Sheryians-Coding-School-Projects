@@ -55,6 +55,10 @@ h1:nth-child(2n){
 .leftBottom{
     background-color: red;
     grid-column: 1 / 3;
+    padding: 30px 0px 0px 25px;
+}
+p{
+    width: 66%;
 }
 .right{
     background-color: brown;
