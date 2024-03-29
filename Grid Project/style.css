@@ -100,13 +100,17 @@ video{
     }
     .leftTopRight{
         text-align: right;
-        padding: 30px 25px 0px 0px;
+        padding: 18px 25px 0px 0px;
     }
     #Head{
         display: none;
     }
     h5{
         display: none;
+    }
+    #menu{
+        display: initial;
+        font-size: 25px;
     }
     .leftCenter{
         grid-column: 1/3;
