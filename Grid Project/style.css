@@ -13,9 +13,21 @@ html body{
     background-color: #ededed;
     display: grid;
 }
-.leftTopLeft{}
-.leftTopRight{}
-.leftCenter{}
-.leftBottom{}
-.right{}
-.arrow{}
+.leftTopLeft{
+    background-color: blue;
+}
+.leftTopRight{
+    background-color: purple;
+}
+.leftCenter{
+    background-color: yellow;
+}
+.leftBottom{
+    background-color: red;
+}
+.right{
+    background-color: brown;
+}
+.arrow{
+    background-color: orangered;
+}
