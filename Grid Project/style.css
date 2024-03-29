@@ -13,3 +13,9 @@ html body{
     background-color: #ededed;
     display: grid;
 }
+.leftTopLeft{}
+.leftTopRight{}
+.leftCenter{}
+.leftBottom{}
+.right{}
+.arrow{}
