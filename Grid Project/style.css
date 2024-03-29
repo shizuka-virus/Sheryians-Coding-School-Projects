@@ -12,22 +12,30 @@ html body{
     height: 100%;
     background-color: #ededed;
     display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 28% 54% 18%;
 }
 .leftTopLeft{
     background-color: blue;
+    
 }
 .leftTopRight{
     background-color: purple;
 }
 .leftCenter{
     background-color: yellow;
+    grid-column: 1 / 3;
 }
 .leftBottom{
     background-color: red;
+    grid-column: 1 / 3;
 }
 .right{
     background-color: brown;
+    grid-row: 1 / 4;
+    grid-column: 3/5;
 }
 .arrow{
     background-color: orangered;
+    position: absolute;
 }
