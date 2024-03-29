@@ -38,6 +38,9 @@ h5{
     font-size: 14px;
     font-weight: 500;
 }
+#menu{
+    display: none;
+}
 .leftCenter{
     grid-column: 1 / 3;
     padding-left: 25px;
