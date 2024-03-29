@@ -77,6 +77,12 @@ video{
     right: 48%;
     border-radius: 50%;
 }
+i{
+    color: white;
+    top: 35%;
+    right: 40%;
+    position: absolute;
+}
 @media screen and (max-width : 350px) {
     .wrapper{
         grid-template-columns: 50% 50%;
