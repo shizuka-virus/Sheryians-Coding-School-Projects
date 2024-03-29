@@ -77,7 +77,7 @@ video{
     right: 48%;
     border-radius: 50%;
 }
-.fa-solid{
+.fa-arrow-right{
     color: white;
     top: 35%;
     right: 38%;
@@ -136,7 +136,7 @@ video{
         height: 30px;
         top: 52%;
     }
-    .fa-solid{
+    .fa-arrow-right{
         top: 23%;
         right: 27%;
         rotate: 90deg;
