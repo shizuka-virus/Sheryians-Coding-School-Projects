@@ -17,7 +17,13 @@ html body{
 }
 .leftTopLeft{
     background-color: blue;
-    
+    padding: 40px 0px 0px 40px;
+}
+.square{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+    rotate: 45deg;    
 }
 .leftTopRight{
     background-color: purple;
