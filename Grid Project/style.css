@@ -136,4 +136,9 @@ i{
         height: 30px;
         top: 52%;
     }
+    i{
+        top: 23%;
+        right: 27%;
+        rotate: 90deg;
+    }
 }
