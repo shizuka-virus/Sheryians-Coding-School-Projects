@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 html body{
     width: 100vw;
@@ -17,7 +18,7 @@ html body{
 }
 .leftTopLeft{
     background-color: blue;
-    padding: 40px 0px 0px 40px;
+    padding: 40px 0px 0px 25px;
 }
 .square{
     width: 22px;
@@ -27,6 +28,17 @@ html body{
 }
 .leftTopRight{
     background-color: purple;
+    text-align: right;
+    padding: 40px 25px 0px 0px;
+}
+h1{
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+h5{
+    font-size: 14px;
+    font-weight: 500;
 }
 .leftCenter{
     background-color: yellow;
