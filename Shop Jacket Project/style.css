@@ -42,6 +42,7 @@ section h1{
 }
 #center{
     padding-top: 30px;
+    padding-right: 80px;
     display: flex;
     justify-content: space-between;
 }
@@ -52,7 +53,6 @@ section h1{
 .right{
     width: 200px;
     padding-top: 20px;
-    padding-right: 40px;
 }
 .right .elem {
     padding: 10px;
@@ -62,4 +62,12 @@ section h1{
     text-decoration: none;
     color: black;
     font-weight: 500;
+}
+#bottom {
+    width:100%;
+    height: 30%;
+    background-color: red;
+    background: url(imge.jpg);
+    background-size: cover;
+    background-position: center;
 }
