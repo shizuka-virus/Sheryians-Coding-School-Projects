@@ -32,7 +32,6 @@ nav {
     border-radius: 50%;
 }
 section{
-    background-color: red;
     padding: 10px 0 0 50px;
 
 }
@@ -40,4 +39,12 @@ section h1{
     font-size: 50px;
     font-weight: 500;
     line-height: 55px;
+}
+#center{
+    background-color: red;
+    padding-top: 20px;
+}
+#center p{
+    font-size: 18px;
+    line-height: 25px;
 }
