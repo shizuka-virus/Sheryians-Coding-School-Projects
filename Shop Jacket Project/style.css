@@ -41,10 +41,25 @@ section h1{
     line-height: 55px;
 }
 #center{
-    background-color: red;
-    padding-top: 20px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 #center p{
     font-size: 18px;
     line-height: 25px;
+}
+.right{
+    width: 200px;
+    padding-top: 20px;
+    padding-right: 40px;
+}
+.right .elem {
+    padding: 10px;
+    border-top: 2px  solid black;
+}
+.right .elem a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
 }
