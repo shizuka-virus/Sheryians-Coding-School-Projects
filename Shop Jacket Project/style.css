@@ -91,14 +91,13 @@ section h1{
     #menu .ri-shopping-bag-line{
         font-size: 15px;
     }
-    ection{
-        padding: 10px 0 0 50px;
+    section{
+        padding: 10px 0 0 10px;
     
     }
     section h1{
-        font-size: 50px;
-        font-weight: 500;
-        line-height: 55px;
+        font-size: 40px;
+        line-height: 45px;
     }
     #center{
         padding-top: 30px;
