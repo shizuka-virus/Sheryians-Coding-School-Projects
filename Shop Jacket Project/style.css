@@ -24,7 +24,7 @@ nav {
     font-size: 16px;
     font-weight: 600;
 }
-#menu i{
+#menu .ri-shopping-bag-line{
     background-color: black;
     color: white;
     font-size: 20px;
@@ -57,17 +57,25 @@ section h1{
 .right .elem {
     padding: 10px;
     border-top: 2px  solid black;
+    display: flex;
+    justify-content: space-between;
 }
 .right .elem a{
     text-decoration: none;
     color: black;
     font-weight: 500;
 }
+.right .elem i{
+    font-size: 16px;
+    display: none;
+}
 #bottom {
     width:100%;
     height: 30%;
-    background-color: red;
     background: url(imge.jpg);
     background-size: cover;
     background-position: center;
+}
+.elem:hover i{
+    display: initial;
 }
