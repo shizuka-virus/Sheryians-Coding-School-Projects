@@ -124,4 +124,7 @@ section h1{
         font-size: 16px;
         display: initial;
     }
+    #bottom {
+        height: 45%;
+    }
 }
