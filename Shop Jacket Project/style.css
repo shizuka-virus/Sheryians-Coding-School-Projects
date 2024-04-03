@@ -79,24 +79,16 @@ section h1{
 .elem:hover i{
     display: initial;
 }
-@media (max-width:360) {
+@media (max-width:360px) {
     nav {
         padding: 20px;
-        display: flex;
-        justify-content: flex-end;
+        justify-content: center;
     }
     #menu a{
-        text-decoration: none;
-        color: black;
-        padding: 0 10px 0 10px;
-        font-size: 16px;
-        font-weight: 600;
+        padding: 0 8px 0 8px;
+        font-weight: 500;
     }
     #menu .ri-shopping-bag-line{
-        background-color: black;
-        color: white;
-        font-size: 20px;
-        padding: 10px;
-        border-radius: 50%;
+        font-size: 15px;
     }
 }
