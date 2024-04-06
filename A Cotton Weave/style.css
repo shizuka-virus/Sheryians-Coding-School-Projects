@@ -12,12 +12,12 @@ html body {
   height: 100%;
   width: 100%;
   display: flex;
-  padding: 140px 0 0 50px;
+  padding: 120px 0 0 50px;
 }
 #main #left {
-  width: 50%;
+  width: 45%;
   height: 100%;
-  background-color: red;
+  position: relative;
 }
 #left h1 {
   font-size: 80px;
@@ -26,14 +26,19 @@ html body {
 }
 #left #color {
   width: fit-content;
-  padding: 6px;
+  padding: 4px 8px;
   border-radius: 20px;
   display: flex;
-  border: 1px solid black;
+  border: 2px solid black;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 58%;
 }
 #color h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 6px;
 }
 #color #dot1 {
   height: 20px;
@@ -48,6 +53,20 @@ html body {
   border-radius: 50%;
   background-color: #4e342f;
   margin: 2px;
+}
+h5 {
+  font-size: 20px;
+  padding: 10px 0;
+  position: absolute;
+  top: 70%;
+}
+p {
+  width: 80%;
+  text-align: justify;
+  position: absolute;
+  top: 80%;
+  font-size: 14px;
+  color: rgb(71, 65, 65);
 }
 #main #right {
   width: 50%;
