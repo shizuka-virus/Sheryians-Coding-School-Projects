@@ -11,4 +11,46 @@ html body {
 #main {
   height: 100%;
   width: 100%;
+  display: flex;
+  padding: 140px 0 0 50px;
+}
+#main #left {
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
+#left h1 {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 90px;
+}
+#left #color {
+  width: fit-content;
+  padding: 6px;
+  border-radius: 20px;
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+}
+#color h4 {
+}
+#color #dot1 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #e0bfb8;
+  margin: 2px;
+}
+#color #dot2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #4e342f;
+  margin: 2px;
+}
+#main #right {
+  width: 50%;
+  height: 100%;
+  background-color: yellow;
 }
