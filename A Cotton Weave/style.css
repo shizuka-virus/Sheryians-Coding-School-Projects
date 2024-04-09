@@ -128,8 +128,8 @@ p {
   #main {
     height: 100%;
     width: 100%;
-    display: flex;
     padding: 40px;
+    padding-right: 6d0px;
     flex-direction: column;
   }
   #main #left {
@@ -168,5 +168,8 @@ p {
   #right #btn {
     top: 40%;
     right: 38%;
+  }
+  #right #rot {
+    display: none;
   }
 }
