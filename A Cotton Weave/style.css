@@ -124,3 +124,49 @@ p {
   top: 85%;
   left: -30%;
 }
+@media (max-width: 412px) {
+  #main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+  }
+  #main #left {
+    width: 100%;
+    height: 50%;
+  }
+  #left h1 {
+    font-size: 60px;
+    line-height: 70px;
+    text-align: center;
+  }
+  #left #color {
+    top: 40%;
+  }
+  h5 {
+    top: 50%;
+  }
+  p {
+    width: 100%;
+    top: 58%;
+  }
+  #main #right {
+    width: 100%;
+    height: 50%;
+  }
+  #right #right-top {
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+  #main #right {
+    position: initial;
+  }
+  #right #btn {
+    top: 40%;
+    right: 38%;
+  }
+}
