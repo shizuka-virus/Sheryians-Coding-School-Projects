@@ -1,151 +1,150 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-html body{
-    width: 100vw;
-    height: 100vh;
+html body {
+  width: 100vw;
+  height: 100vh;
 }
-.wrapper{
-    width: 100%;
-    height: 100%;
-    background-color: #ededed;
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: 28% 54% 18%;
+.wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #ededed;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 28% 54% 18%;
 }
-.leftTopLeft{
-    padding: 30px 0px 0px 25px;
+.leftTopLeft {
+  padding: 30px 0px 0px 25px;
 }
-.square{
-    width: 22px;
-    height: 22px;
-    background-color: black;
-    rotate: 45deg;    
+.square {
+  width: 22px;
+  height: 22px;
+  background-color: black;
+  rotate: 45deg;
 }
-.leftTopRight{
+.leftTopRight {
+  text-align: right;
+  padding: 30px 25px 0px 0px;
+}
+#Head {
+  font-size: 20px;
+  font-weight: 700;
+  padding-bottom: 30px;
+}
+h5 {
+  font-size: 14px;
+  font-weight: 500;
+}
+#menu {
+  display: none;
+}
+.leftCenter {
+  grid-column: 1 / 3;
+  padding-left: 25px;
+}
+h1 {
+  font-size: 75px;
+  font-weight: 500;
+}
+h1:nth-child(2n) {
+  text-align: center;
+}
+.leftBottom {
+  grid-column: 1 / 3;
+  padding: 30px 0px 0px 25px;
+}
+p {
+  width: 66%;
+  text-align: justify;
+}
+.right {
+  grid-row: 1 / 4;
+  grid-column: 3/5;
+  padding: 30px 0px 30px 0px;
+}
+video {
+  width: 500px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.arrow {
+  background-color: orangered;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 50%;
+  right: 48%;
+  border-radius: 50%;
+}
+.fa-arrow-right {
+  color: white;
+  top: 35%;
+  right: 38%;
+  position: absolute;
+}
+@media (max-width: 360px) {
+  .wrapper {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 30% 10% 50%;
+  }
+  .leftTopLeft {
+    padding: 20px 0px 0px 10px;
+  }
+  .square {
+    width: 15px;
+    height: 15px;
+  }
+  .leftTopRight {
     text-align: right;
-    padding: 30px 25px 0px 0px;
-}
-#Head{
-    font-size: 20px;
-    font-weight: 700;
-    padding-bottom: 30px;
-}
-h5{
-    font-size: 14px;
-    font-weight: 500;
-}
-#menu{
+    padding: 18px 25px 0px 0px;
+  }
+  #Head {
     display: none;
-}
-.leftCenter{
-    grid-column: 1 / 3;
-    padding-left: 25px;
-}
-h1{
-    font-size: 75px;
+  }
+  h5 {
+    display: none;
+  }
+  #menu {
+    display: initial;
+    font-size: 25px;
+  }
+  .leftCenter {
+    grid-column: 1/3;
+    padding-left: 40px;
+  }
+  h1 {
+    font-size: 40px;
     font-weight: 500;
-}
-h1:nth-child(2n){
-    text-align: center;
-}
-.leftBottom{
+  }
+  .leftBottom {
+    padding: 0 30px 0 25px;
+    grid-column: 1/3;
+  }
+  p {
+    width: 100%;
+    font-size: 10px;
+  }
+  .right {
+    padding: 30px 10px 5px 10px;
     grid-column: 1 / 3;
-    padding: 30px 0px 0px 25px;
-}
-p{
-    width: 66%;
-    text-align: justify;
-}
-.right{
-    grid-row: 1 / 4;
-    grid-column: 3/5;
-    padding: 30px 0px 30px 0px ;
-}
-video{
-    width: 500px;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 5px;
-}
-.arrow{
-    background-color: orangered;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    top: 50%;
-    right: 48%;
-    border-radius: 50%;
-}
-.fa-arrow-right{
-    color: white;
-    top: 35%;
-    right: 38%;
-    position: absolute;
-}
-@media screen and (max-width : 350px) {
-    .wrapper{
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 10% 30% 10% 50%;
-    }
-    .leftTopLeft{
-        padding: 20px 0px 0px 10px;
-    }
-    .square{
-        width: 15px;
-        height: 15px; 
-    }
-    .leftTopRight{
-        text-align: right;
-        padding: 18px 25px 0px 0px;
-    }
-    #Head{
-        display: none;
-    }
-    h5{
-        display: none;
-    }
-    #menu{
-        display: initial;
-        font-size: 25px;
-    }
-    .leftCenter{
-        grid-column: 1/3;
-        padding-left: 40px;
-    }
-    h1{
-        font-size: 40px;
-        font-weight: 500;
-    }
-    .leftBottom{
-        padding: 20px 0px 0px 10px;
-        grid-column: 1/3;
-    }
-    p{
-        width: 80%;
-        font-size: 10px;
-    }
-    .right{
-        padding: 30px 0px 5px 10px ;
-        grid-column:1 / 3;
-        grid-row: 4;
-
-    }
-    video{
-        width: 300px;
-        height: 250px;
-    }
-    .arrow{
-        width: 30px;
-        height: 30px;
-        top: 52%;
-    }
-    .fa-arrow-right{
-        top: 23%;
-        right: 27%;
-        rotate: 90deg;
-    }
+    grid-row: 4;
+  }
+  video {
+    width: 100%;
+    height: 250px;
+  }
+  .arrow {
+    width: 30px;
+    height: 30px;
+    top: 52%;
+  }
+  .fa-arrow-right {
+    top: 23%;
+    right: 27%;
+    rotate: 90deg;
+  }
 }
