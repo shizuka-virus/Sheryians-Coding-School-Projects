@@ -1,130 +1,128 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
-html body{
-    width: 100vw;
-    height: 100vh;
+html body {
+  width: 100vw;
+  height: 100vh;
 }
-body .main{
-    width: 100%;
-    height: 100%;
+body .main {
+  width: 100%;
+  height: 100%;
 }
 nav {
-    padding: 20px;
-    display: flex;
-    justify-content: flex-end;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
 }
-#menu a{
-    text-decoration: none;
-    color: black;
-    padding: 0 10px 0 10px;
-    font-size: 16px;
-    font-weight: 600;
+#menu a {
+  text-decoration: none;
+  color: black;
+  padding: 0 10px 0 10px;
+  font-size: 16px;
+  font-weight: 600;
 }
-#menu .ri-shopping-bag-line{
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 50%;
+#menu .ri-shopping-bag-line {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
 }
-section{
-    padding: 10px 0 0 50px;
-
+section {
+  padding: 10px 0 0 50px;
 }
-section h1{
-    font-size: 50px;
-    font-weight: 500;
-    line-height: 55px;
+section h1 {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 55px;
 }
-#center{
-    padding-top: 30px;
-    padding-right: 80px;
-    display: flex;
-    justify-content: space-between;
+#center {
+  padding-top: 30px;
+  padding-right: 80px;
+  display: flex;
+  justify-content: space-between;
 }
-#center p{
-    font-size: 18px;
-    line-height: 25px;
+#center p {
+  font-size: 18px;
+  line-height: 25px;
 }
-.right{
-    width: 200px;
-    padding-top: 20px;
+.right {
+  width: 200px;
+  padding-top: 20px;
 }
 .right .elem {
-    padding: 10px;
-    border-top: 2px  solid black;
-    display: flex;
-    justify-content: space-between;
+  padding: 10px;
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: space-between;
 }
-.right .elem a{
+.right .elem a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.right .elem i {
+  font-size: 16px;
+  display: none;
+}
+#bottom {
+  width: 100%;
+  height: 30%;
+  background: url(imge.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.elem:hover i {
+  display: initial;
+}
+@media (max-width: 360px) {
+  nav {
+    padding: 20px;
+    justify-content: center;
+  }
+  #menu a {
+    padding: 0 8px 0 8px;
+    font-weight: 500;
+  }
+  #menu .ri-shopping-bag-line {
+    font-size: 15px;
+  }
+  section {
+    padding: 10px 0 0 20px;
+  }
+  section h1 {
+    font-size: 40px;
+    line-height: 45px;
+  }
+  #center {
+    padding-top: 20px;
+    flex-direction: column;
+    padding-right: 0px;
+  }
+  #center p {
+    font-size: 14px;
+    width: 100%;
+    line-height: 25px;
+    text-align: justify;
+  }
+  .right {
+    width: 100%;
+    padding-top: 15px;
+    padding-right: 30px;
+  }
+  .right .elem a {
     text-decoration: none;
     color: black;
     font-weight: 500;
-}
-.right .elem i{
+  }
+  .right .elem i {
     font-size: 16px;
-    display: none;
-}
-#bottom {
-    width:100%;
-    height: 30%;
-    background: url(imge.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.elem:hover i{
     display: initial;
-}
-@media (max-width:360px) {
-    nav {
-        padding: 20px;
-        justify-content: center;
-    }
-    #menu a{
-        padding: 0 8px 0 8px;
-        font-weight: 500;
-    }
-    #menu .ri-shopping-bag-line{
-        font-size: 15px;
-    }
-    section{
-        padding: 10px 0 0 10px;
-    
-    }
-    section h1{
-        font-size: 40px;
-        line-height: 45px;
-    }
-    #center{
-        padding-top: 20px;
-        flex-direction: column;
-        padding-right: 0px;
-    }
-    #center p{
-        font-size: 14px;
-        width: 100%;
-        line-height: 25px;
-        text-align: justify;
-    }
-    .right{
-        width: 100%;
-        padding-top: 15px;
-        padding-right: 30px;
-    }
-    .right .elem a{
-        text-decoration: none;
-        color: black;
-        font-weight: 500;
-    }
-    .right .elem i{
-        font-size: 16px;
-        display: initial;
-    }
-    #bottom {
-        height: 45%;
-    }
+  }
+  #bottom {
+    height: 45%;
+  }
 }
