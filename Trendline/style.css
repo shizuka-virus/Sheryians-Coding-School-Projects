@@ -37,3 +37,33 @@ nav #right {
   color: rgb(154, 149, 149);
   padding: 0 20px;
 }
+#main #nav2 {
+  width: 50%;
+  padding-top: 20px;
+}
+#main #center {
+  display: flex;
+  overflow: auto;
+  flex-wrap: nowrap;
+}
+#center .card {
+  height: 200px;
+  width: 75%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card h1 {
+  font-size: 70px;
+  font-weight: 100;
+  letter-spacing: 10px;
+}
+#center::-webkit-scrollbar {
+  background-color: transparent;
+  height: 6px;
+  width: 8px;
+}
+#center::-webkit-scrollbar-thumb {
+  background-color: orange;
+}
