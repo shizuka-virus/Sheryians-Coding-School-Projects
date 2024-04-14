@@ -67,3 +67,28 @@ nav #right {
 #center::-webkit-scrollbar-thumb {
   background-color: orange;
 }
+#main #bottom {
+  height: 41%;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  width: 100%;
+}
+#bottom img {
+  flex-shrink: 0;
+  width: 100%;
+  object-fit: cover;
+  object-position: 100% 20%;
+}
+#bottom::-webkit-scrollbar {
+  background-color: transparent;
+}
+@media (width: 360px) {
+  #main nav {
+    padding: 10px;
+  }
+  #left .circle {
+    width: 15px;
+    height: 15px;
+  }
+}
