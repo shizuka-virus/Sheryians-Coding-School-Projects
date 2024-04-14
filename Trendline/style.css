@@ -37,6 +37,9 @@ nav #right {
   color: rgb(154, 149, 149);
   padding: 0 20px;
 }
+i {
+  display: none;
+}
 #main #nav2 {
   width: 50%;
   padding-top: 20px;
@@ -90,5 +93,42 @@ nav #right {
   #left .circle {
     width: 15px;
     height: 15px;
+  }
+  nav #right {
+    gap: 0;
+    align-items: center;
+    justify-content: center;
+  }
+  #right h4 {
+    display: none;
+  }
+  #right #lang {
+    display: initial;
+    font-size: 12px;
+  }
+  #right span {
+    padding: 0 5px;
+  }
+  i {
+    display: initial;
+  }
+  #main #nav2 {
+    width: 100%;
+    padding-top: 10px;
+    gap: 2px;
+  }
+  h5 {
+    font-size: 10px;
+  }
+  .card h1 {
+    letter-spacing: normal;
+    font-size: 50px;
+  }
+  #main #bottom {
+    height: 60%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    width: 100%;
   }
 }
