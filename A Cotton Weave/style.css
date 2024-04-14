@@ -162,8 +162,12 @@ p {
     position: initial;
   }
   #right #btn {
-    top: 40%;
+    top: 48%;
     right: 38%;
+    border-radius: 0;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
   }
   #right #rot {
     display: none;
