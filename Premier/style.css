@@ -13,7 +13,7 @@ body #main {
   height: 100%;
   position: relative;
   padding-bottom: 0.1px;
-  overflow: hidden;
+  background-color: #f8f8f8;
 }
 #main #nav {
   width: 100%;
@@ -29,7 +29,7 @@ body #main {
 #nav h1 {
   font-family: "Monument";
   font-size: 45px;
-  letter-spacing: -5px;
+  letter-spacing: -1px;
   width: 20%;
 }
 #nav h2 {
@@ -53,6 +53,7 @@ body #main {
   width: 100%;
   position: relative;
   padding: 3vw;
+  overflow-x: hidden;
 }
 #center #content {
   width: 100%;
@@ -80,7 +81,7 @@ body #main {
 #top h4 {
   font-family: "Monument";
   font-size: 60px;
-  letter-spacing: -2px;
+  letter-spacing: 2px;
 }
 #top #top-left {
   width: 80px;
@@ -99,7 +100,7 @@ body #main {
   width: 94%;
   height: 70px;
   border-top: 3px solid white;
-  margin-top: 1vw;
+  margin-top: 0.5vw;
 }
 #bottom h5 {
   font-size: 20px;
@@ -108,4 +109,426 @@ body #main {
 h6 i {
   font-size: 30px;
   font-weight: 300;
+}
+#main #scroll {
+  width: 100%;
+  height: 200px;
+  /* background-color: blue; */
+  margin-top: 2vw;
+}
+#scroll #images {
+  width: 100%;
+  height: 100%;
+  /* background-color: red; */
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+#images #part {
+  height: 100%;
+  width: 100%;
+  /* background-color: yellow; */
+  display: inline-block;
+  padding: 1vw;
+  animation-name: anime;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+#part img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  /* margin: 1vw; */
+  margin-left: 55px;
+}
+@keyframes anime {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(-100%);
+  }
+}
+#images::-webkit-scrollbar {
+  display: none;
+}
+#alpha {
+  height: 70px;
+  width: 100%;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+#alpha h2 {
+  font-style: italic;
+  font-weight: 400;
+  padding-right: 20px;
+}
+#alpha h3 {
+  font-style: italic;
+  font-weight: 400;
+  /* background-color: blue; */
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+#alpha h3:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+#page1 {
+  height: 600px;
+  width: 100%;
+  /* background-color: red; */
+  padding: 3.5vw;
+  display: flex;
+  gap: 40px;
+  padding-bottom: 15px;
+}
+#page1-left {
+  width: 60%;
+  height: 100%;
+  /* background-color: yellow; */
+}
+#page1-right {
+  width: 40%;
+  height: 100%;
+  /* background-color: yellow; */
+  /* padding: 2vw; */
+}
+#page1-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#page1-right #right-image {
+  height: 70%;
+  width: 100%;
+}
+#right-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#page1-right #para {
+  height: 30%;
+  width: 100%;
+  /* background-color: blue; */
+}
+#para {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+#para #para1 {
+  width: 95%;
+  font-weight: 600;
+}
+#para #para2 {
+  font-size: 14px;
+  padding-left: 12px;
+}
+#heading h1 {
+  padding-left: 3.5vw;
+  font-family: "Monument";
+}
+#main #page2 {
+  width: 100%;
+  height: 500px;
+  /* background-color: red; */
+  padding: 3.5vw;
+  display: flex;
+  gap: 40px;
+}
+#page2 #page2-left {
+  height: 100%;
+  width: 40%;
+  /* background-color: yellow; */
+  position: relative;
+  padding-left: 50px;
+}
+#page2-left img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 30%;
+  top: 20%;
+  background-blend-mode: hard-light;
+  animation-name: imagin;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes imagin {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#page2-left i {
+  position: absolute;
+  top: 40%;
+  left: 49%;
+  font-size: 30px;
+  font-weight: 100;
+}
+#page2-left p {
+  position: absolute;
+  bottom: 0;
+  width: 60%;
+  font-weight: 600;
+}
+#page2 #page2-right {
+  height: 100%;
+  width: 60%;
+  /* background-color: rgb(60, 9, 170); */
+}
+#page2-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+#main #page3 {
+  height: 500px;
+  width: 100%;
+  /* background-color: yellow; */
+  padding: 0 3.5vw;
+  margin-top: 2vw;
+}
+#page3 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#main #page4 {
+  height: 600px;
+  width: 100%;
+  padding: 3.5vw;
+  /* background-color: yellow; */
+}
+#page4 h1 {
+  font-family: Monument;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+#page4 .elem {
+  width: 100%;
+  height: 120px;
+  /* background-color: red; */
+  border-top: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  position: relative;
+}
+.elem:hover img {
+  left: 30%;
+  opacity: 1;
+}
+#page4 .elem:nth-last-child(1) {
+  border-bottom: 2px solid black;
+}
+.elem h3 {
+  font-size: 14px;
+  width: 20px;
+  font-weight: 400;
+  align-self: flex-start;
+  margin-top: 28px;
+}
+.elem img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  left: 10%;
+  opacity: 0;
+  transition: all linear 1s;
+}
+.elem .elem-right {
+  width: 45%;
+}
+.elem-right h4 {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: -2px;
+}
+.elem-right h5 {
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+#page5 {
+  width: 100%;
+  height: 600px;
+  /* background-color: yellow; */
+  padding: 3.5vw;
+  display: flex;
+  gap: 3.5vw;
+}
+#page5 #page5-left {
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
+#page5-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#page5 #page5-right {
+  width: 50%;
+  height: 100%;
+  /* background-color: blue; */
+}
+#page5-right h1 {
+  font-family: Monument;
+  font-size: 24px;
+  margin-bottom: 1.2vw;
+}
+#page5-right h2 {
+  font-size: 18px;
+  font-weight: 600;
+  width: 60%;
+  margin-bottom: 1.2vw;
+}
+#page5-right p {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 1.2vw;
+}
+#page5-right #right-bottom {
+  width: 100%;
+  height: 65%;
+  /* background-color: black; */
+  display: flex;
+  gap: 1.5vw;
+}
+#right-bottom #right-bottom-left {
+  width: 60%;
+  height: 100%;
+  /* background-color: red; */
+}
+#right-bottom-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#right-bottom #right-bottom-right {
+  width: 40%;
+  height: 100%;
+  /* background-color: purple; */
+}
+#right-bottom-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#main #page6 {
+  width: 100%;
+  height: 500px;
+  padding: 3.5vw;
+}
+#page6 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+}
+#text-anima {
+  /* background-color: red; */
+  white-space: nowrap;
+  overflow-x: hidden;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+#text-anima .txt {
+  display: flex;
+  padding: 2vw;
+}
+.txt h1 {
+  font-size: 50px;
+  color: transparent;
+  -webkit-text-stroke: 2px black;
+  padding-right: 10px;
+  animation-name: txtanima;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes txtanima {
+  from {
+    transform: translate(0);
+  }
+  to {
+    transform: translate(-100%);
+  }
+}
+#page7 {
+  height: 600px;
+  width: 100%;
+  /* background-color: red; */
+  padding: 3.5vw;
+  display: flex;
+  gap: 40px;
+  padding-bottom: 15px;
+}
+#page7-left {
+  width: 60%;
+  height: 100%;
+  /* background-color: yellow; */
+}
+#page7-right {
+  width: 40%;
+  height: 100%;
+  /* background-color: yellow; */
+  /* padding: 2vw; */
+}
+#page7-left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#page7-right #right-image {
+  height: 70%;
+  width: 100%;
+}
+#right-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#page7-right #para {
+  height: 30%;
+  width: 100%;
+  /* background-color: blue; */
+}
+#para {
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+#para #para1 {
+  width: 95%;
+  font-weight: 600;
+}
+#para #para2 {
+  font-size: 14px;
+  padding-left: 12px;
 }
