@@ -31,6 +31,27 @@ body #main {
   font-size: 45px;
   letter-spacing: -1px;
   width: 20%;
+  position: relative;
+}
+#nav h1::before {
+  content: "©";
+  font-size: 16px;
+  position: absolute;
+  font-family: Gilroy;
+  font-weight: bold;
+  left: 98%;
+  top: 4px;
+}
+#nav h1::after {
+  content: "model management";
+  font-size: 12px;
+  position: absolute;
+  font-family: Gilroy;
+  left: 40%;
+  top: 43px;
+  width: 150px;
+  letter-spacing: 1px;
+  color: #6b6868;
 }
 #nav h2 {
   height: 100%;
@@ -113,13 +134,11 @@ h6 i {
 #main #scroll {
   width: 100%;
   height: 200px;
-  /* background-color: blue; */
   margin-top: 2vw;
 }
 #scroll #images {
   width: 100%;
   height: 100%;
-  /* background-color: red; */
   white-space: nowrap;
   overflow-x: auto;
   overflow-y: hidden;
@@ -127,7 +146,6 @@ h6 i {
 #images #part {
   height: 100%;
   width: 100%;
-  /* background-color: yellow; */
   display: inline-block;
   padding: 1vw;
   animation-name: anime;
@@ -141,7 +159,6 @@ h6 i {
   object-fit: cover;
   object-position: center;
   border-radius: 50%;
-  /* margin: 1vw; */
   margin-left: 55px;
 }
 @keyframes anime {
@@ -158,7 +175,6 @@ h6 i {
 #alpha {
   height: 70px;
   width: 100%;
-  /* background-color: yellow; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -174,7 +190,6 @@ h6 i {
 #alpha h3 {
   font-style: italic;
   font-weight: 400;
-  /* background-color: blue; */
   height: 30px;
   width: 30px;
   display: flex;
@@ -189,7 +204,6 @@ h6 i {
 #page1 {
   height: 600px;
   width: 100%;
-  /* background-color: red; */
   padding: 3.5vw;
   display: flex;
   gap: 40px;
@@ -198,13 +212,10 @@ h6 i {
 #page1-left {
   width: 60%;
   height: 100%;
-  /* background-color: yellow; */
 }
 #page1-right {
   width: 40%;
   height: 100%;
-  /* background-color: yellow; */
-  /* padding: 2vw; */
 }
 #page1-left img {
   width: 100%;
@@ -223,7 +234,6 @@ h6 i {
 #page1-right #para {
   height: 30%;
   width: 100%;
-  /* background-color: blue; */
 }
 #para {
   padding-top: 20px;
@@ -245,7 +255,6 @@ h6 i {
 #main #page2 {
   width: 100%;
   height: 500px;
-  /* background-color: red; */
   padding: 3.5vw;
   display: flex;
   gap: 40px;
@@ -253,7 +262,6 @@ h6 i {
 #page2 #page2-left {
   height: 100%;
   width: 40%;
-  /* background-color: yellow; */
   position: relative;
   padding-left: 50px;
 }
@@ -293,7 +301,6 @@ h6 i {
 #page2 #page2-right {
   height: 100%;
   width: 60%;
-  /* background-color: rgb(60, 9, 170); */
 }
 #page2-right img {
   width: 100%;
@@ -304,7 +311,6 @@ h6 i {
 #main #page3 {
   height: 500px;
   width: 100%;
-  /* background-color: yellow; */
   padding: 0 3.5vw;
   margin-top: 2vw;
 }
@@ -317,7 +323,6 @@ h6 i {
   height: 600px;
   width: 100%;
   padding: 3.5vw;
-  /* background-color: yellow; */
 }
 #page4 h1 {
   font-family: Monument;
@@ -327,7 +332,6 @@ h6 i {
 #page4 .elem {
   width: 100%;
   height: 120px;
-  /* background-color: red; */
   border-top: 2px solid black;
   display: flex;
   justify-content: space-between;
@@ -376,7 +380,6 @@ h6 i {
 #page5 {
   width: 100%;
   height: 600px;
-  /* background-color: yellow; */
   padding: 3.5vw;
   display: flex;
   gap: 3.5vw;
@@ -384,7 +387,6 @@ h6 i {
 #page5 #page5-left {
   width: 50%;
   height: 100%;
-  background-color: red;
 }
 #page5-left img {
   width: 100%;
@@ -395,7 +397,6 @@ h6 i {
 #page5 #page5-right {
   width: 50%;
   height: 100%;
-  /* background-color: blue; */
 }
 #page5-right h1 {
   font-family: Monument;
@@ -416,14 +417,12 @@ h6 i {
 #page5-right #right-bottom {
   width: 100%;
   height: 65%;
-  /* background-color: black; */
   display: flex;
   gap: 1.5vw;
 }
 #right-bottom #right-bottom-left {
   width: 60%;
   height: 100%;
-  /* background-color: red; */
 }
 #right-bottom-left img {
   width: 100%;
@@ -433,7 +432,6 @@ h6 i {
 #right-bottom #right-bottom-right {
   width: 40%;
   height: 100%;
-  /* background-color: purple; */
 }
 #right-bottom-right img {
   width: 100%;
@@ -452,7 +450,6 @@ h6 i {
   object-position: top;
 }
 #text-anima {
-  /* background-color: red; */
   white-space: nowrap;
   overflow-x: hidden;
   border-top: 2px solid black;
@@ -483,7 +480,6 @@ h6 i {
 #page7 {
   height: 600px;
   width: 100%;
-  /* background-color: red; */
   padding: 3.5vw;
   display: flex;
   gap: 40px;
@@ -492,13 +488,10 @@ h6 i {
 #page7-left {
   width: 60%;
   height: 100%;
-  /* background-color: yellow; */
 }
 #page7-right {
   width: 40%;
   height: 100%;
-  /* background-color: yellow; */
-  /* padding: 2vw; */
 }
 #page7-left img {
   width: 100%;
@@ -517,7 +510,6 @@ h6 i {
 #page7-right #para {
   height: 30%;
   width: 100%;
-  /* background-color: blue; */
 }
 #para {
   padding-top: 20px;
@@ -531,4 +523,71 @@ h6 i {
 #para #para2 {
   font-size: 14px;
   padding-left: 12px;
+}
+footer {
+  margin-top: 3vw;
+  padding: 0 3.5vw;
+  display: flex;
+  height: 200px;
+  width: 100%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+footer h1 {
+  font-family: Monument;
+  font-size: 45px;
+  letter-spacing: -1px;
+  padding-top: 15px;
+  padding-right: 30px;
+  position: relative;
+}
+footer h1::before {
+  content: "©";
+  font-size: 16px;
+  position: absolute;
+  font-family: Gilroy;
+  font-weight: bold;
+  left: 90%;
+  top: 15px;
+}
+footer h1::after {
+  content: "model management";
+  font-size: 12px;
+  position: absolute;
+  font-family: Gilroy;
+  left: 36%;
+  top: 60px;
+  width: 150px;
+  letter-spacing: 1px;
+  color: #6b6868;
+}
+footer h2 {
+  width: 240px;
+  height: 100%;
+  border-right: 2px solid black;
+  padding: 30px 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+#ft-top h2 {
+  width: 608px;
+  border: none;
+  height: 50%;
+  border-bottom: 2px solid black;
+}
+#ft-bottom {
+  width: 100%;
+  height: 60%;
+  padding-left: 40px;
+  padding-top: 20px;
+}
+#ft-bottom p {
+  font-size: 14px;
+}
+#icons {
+  padding-bottom: 10px;
+}
+#icons i {
+  font-size: 20px;
+  padding-right: 15px;
 }
