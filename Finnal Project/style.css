@@ -1,0 +1,122 @@
+@font-face {
+  font-family: plain-light;
+  src: url(./fonts/plain-light-webfont.ttf);
+}
+@font-face {
+  font-family: silk-light;
+  src: url(./fonts/silkserif-lightitalic-webfont.ttf);
+}
+@font-face {
+  font-family: silk-reg;
+  src: url(./fonts/silkserif-regularitalic-webfont.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+html body {
+  width: 100%;
+  height: 100%;
+}
+body #loader {
+  width: 100vw;
+  height: 100vh;
+  background-color: #151515;
+  padding-left: 5vw;
+  padding-top: 4vw;
+  position: relative;
+}
+#loader .line {
+  height: fit-content;
+  width: fit-content;
+  /* background-color: red; */
+  overflow: hidden;
+  display: flex;
+}
+#loader .line:nth-child(1) {
+  margin-top: 5vw;
+}
+.line #counter {
+  display: flex;
+  padding-right: 1vw;
+  padding-left: 7vw;
+}
+#counter h2 {
+  font-family: silk-light;
+  font-size: 4vw;
+  padding-right: 1vw;
+  font-weight: 400;
+  text-align: left;
+}
+#counter #first {
+  /* background-color: red; */
+  width: 7vw;
+  text-align: right;
+}
+.line h1 {
+  font-size: 7vw;
+  font-family: plain-light;
+  line-height: 7.5vw;
+}
+#loader h3 {
+  font-size: 7vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  height: 8vw;
+  /* background-color: red; */
+  font-family: plain-light;
+  position: absolute;
+  left: 75%;
+  top: 50.5%;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  opacity: 0;
+}
+@keyframes h3anima {
+  0% {
+    font-family: plain-light;
+    color: white;
+    font-weight: 500;
+    opacity: 1;
+  }
+  47% {
+    font-family: plain-light;
+    color: white;
+    font-weight: 500;
+    opacity: 0;
+  }
+  50% {
+    font-family: silk-reg;
+    color: transparent;
+    -webkit-text-stroke: 0.1vw white;
+    font-weight: 500;
+    opacity: 1;
+  }
+  100% {
+    font-family: silk-reg;
+    color: transparent;
+    -webkit-text-stroke: 0.1vw white;
+    font-weight: 500;
+    opacity: 0;
+  }
+}
+#loader h4 {
+  font-family: plain-light;
+  width: 65vw;
+  height: 8vw;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+}
+#main #page {
+  width: 100vw;
+  height: 100vh;
+  background-color: yellow;
+}

@@ -1,0 +1,41 @@
+@font-face {
+  font-family: WoodlandB;
+  src: url(./Fonts/PPWoodland-Bold.otf);
+}
+@font-face {
+  font-family: WoodlandUl;
+  src: url(./Fonts/PPWoodland-Ultralight.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: WoodlanUl;
+}
+html body {
+  width: 100vw;
+  height: 100vh;
+}
+#main #page1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(126, 126, 247);
+}
+#main #page2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(5, 5, 193);
+  padding: 2vw;
+}
+#page2 h1 {
+  text-align: center;
+  font-size: 5vw;
+  line-height: 5.5vw;
+  font-weight: 500;
+  color: rgb(4, 4, 133);
+}
+#main #page3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(126, 126, 247);
+}
