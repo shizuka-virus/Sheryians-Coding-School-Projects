@@ -23,10 +23,15 @@ html body {
 body #loader {
   width: 100vw;
   height: 100vh;
-  background-color: #151515;
+  background-color: #0b0b0b;
   padding-left: 5vw;
   padding-top: 4vw;
+  position: fixed;
+  z-index: 999;
+}
+body #main {
   position: relative;
+  background-color: #111;
 }
 #loader .line {
   height: fit-content;
@@ -115,8 +120,45 @@ body #loader {
   align-items: flex-end;
   overflow: hidden;
 }
-#main #page {
+#main #page1 {
   width: 100vw;
   height: 100vh;
-  background-color: yellow;
+  background-color: #151515;
+}
+#page1 #nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw 5.5vw;
+}
+#nav #nav2 {
+  width: 50%;
+  margin-top: 3vw;
+}
+#nav2 h5 {
+  font-size: 1.2vw;
+  font-family: plain-light;
+  font-weight: 400;
+}
+#nav #nav3 {
+  display: flex;
+  gap: 3vw;
+}
+#nav3 h3 {
+  font-size: 1.2vw;
+  font-family: plain-light;
+  font-weight: 400;
+}
+#page1 .lines2 {
+  /* background-color: red; */
+  width: 70%;
+  margin-left: 28vw;
+}
+.lines2:nth-child(2) {
+  margin-top: 4vw;
+}
+.lines2 h6 {
+  font-size: 7.4vw;
+  font-family: plain-light;
+  line-height: 7.6vw;
 }
