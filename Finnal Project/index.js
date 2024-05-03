@@ -39,3 +39,14 @@ tl.from("#page1", {
   y: 1200,
   opacity: 0,
 });
+document.addEventListener("mousemove", function (post) {
+  gsap.to("#crs", {
+    left: post.x,
+    top: post.y,
+  });
+});
+Shery.makeMagnet("#nav3" /* Element to target.*/, {
+  //Parameters are optional.
+  ease: "cubic-bezier(0.23, 1, 0.320, 1)",
+  duration: 1,
+});
