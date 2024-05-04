@@ -32,6 +32,7 @@ function loadingAnimation() {
     duration: 0.4,
     ease: "power4.out",
     delay: 3,
+    display: "none",
   });
 }
 loadingAnimation();
@@ -39,9 +40,20 @@ tl.from("#page1", {
   y: 1200,
   opacity: 0,
 });
+function page1Animation() {
+  tl.from(".lines2 h6", {
+    y: 150,
+    stagger: 0.4,
+    opacity: 0,
+    duration: 1,
+    ease: "power4.out",
+  });
+}
 document.addEventListener("mousemove", function (post) {
   gsap.to("#crs", {
     left: post.x,
     top: post.y,
   });
 });
+page1Animation();
+Shery.makeMagnet("#nav3 h3", {});
